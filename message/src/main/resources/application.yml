@@ -1,0 +1,21 @@
+# 服务端口
+server:
+  port: 8200
+# 服务名
+spring:
+  application:
+    name: message
+  # nacos服务地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#阿里云OSS配置信息
+aliyun:
+  oss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+    accessKeyId: LTAI5BG34RnWqQ7Y
+    accessKeySecret: HIxLdVPXyXdr2yKUEGDQ1zBB507qs4
+    bucketName: self-mall
+    urlPrex: https://self-mall.oss-cn-hangzhou.aliyuncs.com
